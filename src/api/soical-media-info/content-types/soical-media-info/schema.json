@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "soical_media_infos",
+  "info": {
+    "singularName": "soical-media-info",
+    "pluralName": "soical-media-infos",
+    "displayName": "soical_media _info"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "social_media_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "social-media-link.soical-media-elements"
+    }
+  }
+}

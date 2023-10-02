@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_uses",
+  "info": {
+    "singularName": "contact-us",
+    "pluralName": "contact-uses",
+    "displayName": "contact-us",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "address": {
+      "type": "text"
+    },
+    "school_email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "text"
+    },
+    "fax": {
+      "type": "string"
+    },
+    "contact_time_window": {
+      "type": "richtext"
+    },
+    "map_code": {
+      "type": "text"
+    },
+    "Contact_Form": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contact.contact-form-elements"
+    }
+  }
+}

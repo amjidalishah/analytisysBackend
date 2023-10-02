@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_section_section_with_body_and_images",
+  "info": {
+    "displayName": "Section With Body and Image"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

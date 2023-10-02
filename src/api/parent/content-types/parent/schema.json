@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "parents",
+  "info": {
+    "singularName": "parent",
+    "pluralName": "parents",
+    "displayName": "Parent"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Parent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.page"
+    }
+  }
+}

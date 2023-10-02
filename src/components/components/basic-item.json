@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_basic_items",
+  "info": {
+    "displayName": "basic_item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

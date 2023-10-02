@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_section_resource_group_s",
+  "info": {
+    "displayName": "resource_group "
+  },
+  "options": {},
+  "attributes": {
+    "resource": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resource.resource"
+    }
+  }
+}

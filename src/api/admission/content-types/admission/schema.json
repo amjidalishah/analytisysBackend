@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "admissions",
+  "info": {
+    "singularName": "admission",
+    "pluralName": "admissions",
+    "displayName": "Admission",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Admission": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.page"
+    }
+  }
+}

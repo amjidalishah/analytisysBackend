@@ -1,0 +1,35 @@
+{
+  "name": "analytisys",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Analytisys",
+  "scripts": {
+    "develop": "strapi develop",
+    "customize": "strapi develop --watch-admin",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@ckeditor/strapi-plugin-ckeditor": "^0.0.7",
+    "@strapi/plugin-documentation": "^4.4.5",
+    "@strapi/plugin-i18n": "4.4.5",
+    "@strapi/plugin-users-permissions": "^4.9.2",
+    "@strapi/strapi": "^4.9.2",
+    "mysql": "2.18.1",
+    "react-quill": "^2.0.0",
+    "sharp": "^0.32.0",
+    "strapi-plugin-populate-deep": "^1.1.2"
+  },
+  "author": {
+    "name": "amjidalishah72@gmail.com"
+  },
+  "strapi": {
+    "uuid": "423b9ec1-a0e7-40cb-9f27-2f76da15a1cf"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

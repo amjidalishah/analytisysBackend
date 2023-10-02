@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_section_section_with_body_onlies",
+  "info": {
+    "displayName": "Section With Body Only"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    }
+  }
+}

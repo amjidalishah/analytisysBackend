@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_components_single_tabs",
+  "info": {
+    "displayName": "single_tab",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "CTA": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.basic-item"
+    }
+  }
+}

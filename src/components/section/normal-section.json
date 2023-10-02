@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_section_normal_sections",
+  "info": {
+    "displayName": "normal_section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

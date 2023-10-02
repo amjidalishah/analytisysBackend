@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "join_our_teams",
+  "info": {
+    "singularName": "join-our-team",
+    "pluralName": "join-our-teams",
+    "displayName": "Join",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "employment_opportunity": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.section"
+    },
+    "Join": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.page"
+    }
+  }
+}

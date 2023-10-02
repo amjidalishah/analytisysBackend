@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_pages",
+  "info": {
+    "displayName": "page",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    }
+  }
+}

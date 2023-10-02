@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "website_infos",
+  "info": {
+    "singularName": "website-info",
+    "pluralName": "website-infos",
+    "displayName": "home_page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "home_page": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.page"
+    },
+    "trusted_by": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.trusted-by"
+    },
+    "cards_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.card-section"
+    },
+    "tab_section_1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.tab-section"
+    },
+    "tab_section_2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.tab-section"
+    }
+  }
+}

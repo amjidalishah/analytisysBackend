@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "staffs",
+  "info": {
+    "singularName": "staff",
+    "pluralName": "staffs",
+    "displayName": "staff",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "text"
+    },
+    "Position": {
+      "type": "text"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "School": {
+      "type": "enumeration",
+      "enum": [
+        "Pre",
+        "Elementary",
+        "Middle",
+        "High"
+      ],
+      "required": true
+    }
+  }
+}

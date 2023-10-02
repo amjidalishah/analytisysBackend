@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "applies",
+  "info": {
+    "singularName": "apply",
+    "pluralName": "applies",
+    "displayName": "Apply"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Apply": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.page"
+    }
+  }
+}

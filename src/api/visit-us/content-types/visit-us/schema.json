@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "visit_uses",
+  "info": {
+    "singularName": "visit-us",
+    "pluralName": "visit-uses",
+    "displayName": "Visit_Us",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "visit_us": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.page"
+    },
+    "contact": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contact.contact-form-elements"
+    },
+    "google_map_html_code": {
+      "type": "text"
+    }
+  }
+}

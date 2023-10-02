@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "faculty_and_staffs",
+  "info": {
+    "singularName": "faculty-and-staff",
+    "pluralName": "faculty-and-staffs",
+    "displayName": "Faculty_and_Staff",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "faculty_and_staff": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.page"
+    }
+  }
+}

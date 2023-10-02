@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_contact_contact_form_elements",
+  "info": {
+    "displayName": "Contact Form Elements",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "field_title": {
+      "type": "string"
+    },
+    "field_type": {
+      "type": "enumeration",
+      "enum": [
+        "text",
+        "number",
+        "text-area",
+        "button",
+        "email",
+        "date",
+        "time",
+        "date-time"
+      ]
+    }
+  }
+}
